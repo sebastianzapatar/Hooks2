@@ -1,5 +1,6 @@
 import './App.css';
-import { CounterCosita } from './bases/CounterCosita';
+import { CounterReducer2 } from './bases/CounterReducer2';
+import { Menu } from './bases/Menu';
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <h1>Tengo Hambre</h1>
       
-      <CounterCosita/>
+      <CounterReducer2/>
+      <Menu/>
     </>
   );
 }
